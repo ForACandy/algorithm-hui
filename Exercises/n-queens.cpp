@@ -15,9 +15,6 @@ void search(int cur){
 	}
 }
 int main() {
-  while(scanf("%d",&n)){
-  	memset(C,0,sizeof(C));tot=0;
-    search(0);printf("%d\n",tot);
-  }
+  scanf("%d",&n);search(0);printf("%d\n",tot);
   return 0;
 }
