@@ -1,4 +1,3 @@
-//Baekjoon - 9663平台AC通过，韩国的在线平台 
 #include<cstdio>
 #include<cstring>
 #include<vector>
@@ -16,6 +15,10 @@ void search(int cur){
 	}
 }
 int main() {
-  scanf("%d",&n);search(0);printf("%d\n",tot);
+	while(scanf("%d",&n)){
+	memset(C,0,sizeof(C));tot=0;
+	search(0);
+	printf("%d\n",tot);
+	}
   return 0;
 }

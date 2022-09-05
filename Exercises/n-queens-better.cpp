@@ -14,6 +14,7 @@ void search(int cur){
 	}
 }
 int main() {
-  scanf("%d",&n);search(0);printf("%d\n",tot);
+  scanf("%d",&n);
+  search(0);printf("%d\n",tot);
   return 0;
 }
